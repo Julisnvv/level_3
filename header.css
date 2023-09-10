@@ -1,0 +1,96 @@
+.header {
+    height: 80px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ax {
+    color: #FFF;
+}
+
+.it {
+    color: #EC7979;
+}
+
+.header h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+    height: 80px;
+    width: 570px;
+}
+
+.header nav a {
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.6s;
+}
+
+.header nav a:hover {
+    background-color: #EC7979;
+    color: #FFF;
+    text-transform: uppercase;
+    height: 80px;
+}
+
+.header nav a:active {
+    background-color: #AB4949;
+    color: #FFF;
+    text-transform: uppercase;
+    height: 80px;
+}
+
+@media screen and (max-width:1024px) {
+    .header {
+        height: 75px;
+    }
+
+    .header nav a:hover {
+        height: 75px;
+    }
+
+    .header nav a:active {
+        height: 75px;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .header {
+        height: 60px;
+    }
+
+    .header nav {
+        display: none;
+    }
+
+    /* .header nav a:hover {
+        height: 60px;
+    }
+
+    .header nav a:active {
+        height: 60px;
+    } */
+
+    .header h2 {
+        font-size: 26px;
+        margin-right: 300px;
+        padding-top: 15px;
+    }
+
+}

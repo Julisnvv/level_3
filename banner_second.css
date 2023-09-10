@@ -1,0 +1,92 @@
+.banner_second {
+    height: 440px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/bannersecond.png');
+}
+
+.banner_second h2 {
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFF;
+}
+
+.separator_fourth {
+    width: 170px;
+    margin: auto;
+    background-color: #FFF;
+    border: .5px solid #FFF;
+    margin-bottom: 50px;
+}
+
+.banner_second h5 {
+    text-align: center;
+    font-size: 18px;
+    color: #FFF;
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.banner_second button {
+    height: 60px;
+    width: 270px;
+    background-color: transparent;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner_second button:hover {
+    background-color: transparent;
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.banner_second button:active {
+    color: #FFF;
+    background-color: #AB4949;
+    border: 2px solid #AB4949;
+}
+
+@media screen and (max-width:1024px) {
+    .banner_second {
+        height: 360px;
+    }
+
+    .banner_second h2 {
+        height: 120px;
+        line-height: 120px;
+        font-size: 24px;
+    }
+
+    .separator_fourth {
+        width: 140px;
+    }
+
+    .banner_second h5 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .separator_fourth {
+        width: 130px;
+    }
+
+    .banner_second button {
+        height: 50px;
+        width: 290px;
+    }
+}

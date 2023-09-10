@@ -1,0 +1,143 @@
+.contact h2 {
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.separator_fifth {
+    width: 170px;
+    margin: auto;
+    background-color: #EC7979;
+    border: .5px solid #EC7979;
+    margin-bottom: 50px;
+}
+
+.contact h5 {
+    text-align: center;
+    font-size: 18px;
+    color: #868788;
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+textarea {
+    width: 570px;
+    height: 175px;
+}
+
+input {
+    width: 570px;
+    height: 55px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    font-weight: 400;
+    color: #BDBDBD;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact form div {
+    width: fit-content;
+}
+
+.contact form {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.contact button {
+    height: 58px;
+    width: 370px;
+    background-color: #EC7979;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.contact button:hover {
+    background-color: #AB4949;
+}
+
+.contact button:active {
+    background-color: #EC7979;
+    box-shadow: #AB4949;
+}
+
+@media screen and (max-width:1024px) {
+    .contact h2 {
+        height: 120px;
+        line-height: 120px;
+        font-size: 24px;
+    }
+
+    .separator_fifth {
+        width: 140px;
+    }
+
+    .contact h5 {
+        font-size: 16px;
+    }
+
+    textarea {
+        width: 420px;
+    }
+
+    input {
+        width: 420px;
+        height: 40px;
+    }
+
+    .contact form {
+        width: 900px;
+    }
+
+    .contact button {
+        height: 50px;
+        width: 320px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .separator_fifth {
+        width: 134px;
+    }
+
+    .contact h5 {
+        font-size: 14px;
+    }
+
+    textarea {
+        width: 290px;
+    }
+
+    input {
+        width: 290px;
+        height: 40px;
+    }
+
+    .contact form {
+        width: 280px;
+        display: block;
+        padding-bottom: 60px;
+    }
+
+    .contact button {
+        width: 290px;
+    }
+}

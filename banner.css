@@ -1,0 +1,268 @@
+.banner {
+    height: 1025px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/banner.png');
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+}
+
+.ax {
+    color: #FFF;
+}
+
+.it {
+    color: #EC7979;
+}
+
+.banner_general {
+    margin: 5px 10px 0px 130px;
+}
+
+.banner h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+}
+
+.banner h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    color: #FFF;
+    text-transform: uppercase;
+    margin: 70px 0 0 0;
+}
+
+.separator_white {
+    width: 170px;
+    margin: 50px 0px 50px 0px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+
+}
+
+.banner h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.button_first {
+    height: 60px;
+    width: 270px;
+    background-color: transparent;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 50px 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_first:hover {
+    background-color: transparent;
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.button_first:active {
+    background-color: #AB4949;
+    border: 2px solid #AB4949;
+    color: #FFF;
+}
+
+.banner form {
+    display: flex;
+    position: relative;
+    margin-top: 5px;
+    width: 470px;
+}
+
+.form-element {
+    padding: 20px 20px 0 20px;
+    height: 450px;
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 470px;
+}
+
+.banner form h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0px 60px 0px;
+}
+
+.banner form textarea {
+    width: 370px;
+    height: 75px;
+}
+
+.banner form input {
+    width: 370px;
+    height: 38px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    font-weight: 400;
+    color: #BDBDBD;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 30px;
+
+}
+
+.button_second {
+    height: 60px;
+    width: 470px;
+    background-color: #EC7979;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-left: -20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0 0 10px 10px;
+    margin-top: 70px;
+}
+
+.button_second:hover {
+    background-color: #AB4949;
+}
+
+.button_seconds:active {
+    color: #FFF;
+    background-color: #AB4949;
+    border: 2px solid #AB4949;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        height: fit-content;
+        padding-bottom: 100px;
+    }
+
+    .banner_general {
+        margin: 5px 10px 0px 90px;
+    }
+
+    .banner h2 {
+        font-size: 48px;
+    }
+
+    .banner h1 {
+        font-size: 36px;
+    }
+
+    .banner form {
+        width: 400px;
+    }
+
+    .separator_white {
+        width: 120px;
+    }
+
+    .banner h5 {
+        font-size: 14px;
+    }
+
+    .button_first {
+        height: 50px;
+        width: 180px;
+    }
+
+    .form-element {
+        width: 400px;
+        padding: 20px 10px 0 20px;
+    }
+
+    .banner form textarea {
+        width: 370px;
+        height: 75px;
+    }
+
+    .banner form input {
+        width: 300px;
+    }
+
+    .button_second {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banner {
+        height: 1005px;
+        display: block;
+        padding-top: 20px;
+    }
+
+    .banner h2 {
+        display: none;
+    }
+
+    .banner_general {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .banner h1 {
+        font-size: 32px;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .separator_white {
+        width: 134px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .banner h5 {
+        text-align: center;
+    }
+
+    .button_first {
+        height: 50px;
+        width: 280px;
+    }
+
+    .form-element {
+        width: 280px;
+    }
+
+    .banner form {
+        width: 280px;
+        margin: 45px auto;
+    }
+
+    .banner form textarea {
+        width: 280px;
+        height: 75px;
+        margin-right: 50px;
+    }
+
+    .banner form input {
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .button_second {
+        width: 280px;
+    }
+
+    .banner form h4 {
+        font-size: 16px;
+        margin: 20px 0px 60px 0px;
+        text-transform: uppercase;
+    }
+}

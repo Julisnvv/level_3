@@ -1,0 +1,199 @@
+.pricing {
+    background-color: #F5F5F5;
+    padding: 40px 70px;
+}
+
+.pricing h2 {
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.separator_second {
+    width: 170px;
+    margin: auto;
+    background-color: #EC7979;
+    border: .5px solid #EC7979;
+    margin-bottom: 50px;
+}
+
+.pricing__subheader {
+    text-align: center;
+    font-size: 18px;
+    color: #868788;
+    margin-bottom: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.pricing__sections {
+    margin: auto;
+    width: fit-content;
+    height: 530px;
+}
+
+.pricing__sections section {
+    width: 370px;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.pricing__sections section h4 {
+    height: 60px;
+    background-color: #333;
+    font-family: "Open Sans", sans-serif;
+    color: #F5F5F5;
+    text-align: center;
+    line-height: 60px;
+    border: 2px solid #F5F5F5;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.pricing__sections section h3 {
+    height: 100px;
+    background-color: #333;
+    font-family: "Open Sans", sans-serif;
+    color: #F5F5F5;
+    text-align: center;
+    line-height: 100px;
+    border: 2px solid #F5F5F5;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.pricing__sections section h5 {
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    font-family: "Raleway", sans-serif;
+    color: #86878B;
+    text-align: center;
+    border: 2px solid #F5F5F5;
+    background-color: #FFF;
+    font-weight: 400;
+}
+
+.pricing__sections section h5:first-of-type {
+    background-color: #333;
+}
+
+.pricing__sections section:not(:nth-of-type(2)) {
+    margin-top: 20px;
+}
+
+.pricing__sections section:nth-of-type(2) {
+    margin: 0 30px;
+}
+
+.pricing__optima {
+    box-shadow: 0px 4px 10px 0px #33333333;
+}
+
+@media screen and (max-width:1024px) {
+
+    .pricing {
+        padding: 40px 10px;
+    }
+
+    .pricing h2 {
+        height: 120px;
+        line-height: 120px;
+        font-size: 24px;
+    }
+
+    .separator_second {
+        width: 140px;
+    }
+
+    .pricing__subheader {
+        font-size: 14px;
+    }
+
+    .pricing__sections {
+        height: 430px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pricing__sections section {
+        width: 310px;
+        height: 450px;
+    }
+
+    .pricing__sections section h4 {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .pricing__sections section h3 {
+        height: 90px;
+        line-height: 90px;
+    }
+
+    .pricing__sections section h5 {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .pricing {
+        width: 320px;
+        height: 1520px;
+        padding: 40px 10px;
+        display: block;
+    }
+
+    .pricing h2 {
+        margin-top: -40px;
+    }
+
+    .separator_second {
+        width: 130px;
+        margin-bottom: 30px;
+    }
+
+    .pricing__subheader {
+        margin-bottom: 10px;
+        margin-bottom: 5px;
+    }
+
+    .pricing__sections {
+        height: 400px;
+        display: block;
+    }
+
+    .pricing__sections section {
+        width: 290px;
+        height: 400px;
+    }
+
+    .pricing__sections section h4 {
+        font-size: 18px;
+    }
+
+    .pricing__sections section h3 {
+        height: 80px;
+        line-height: 80px;
+        font-size: 24px;
+    }
+
+    .pricing__sections section h5 {
+        font-size: 16px;
+    }
+
+    .pricing__sections section:not(:nth-of-type(2)) {
+        margin-top: 30px;
+    }
+
+    .pricing__sections section:nth-of-type(2) {
+        margin: 30px 0px 0px 0px;
+    }
+}

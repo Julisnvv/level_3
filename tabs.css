@@ -1,0 +1,180 @@
+.tabs {
+    width: fit-content;
+    margin: calc((100vh - 542.4px) / 2) auto 0 auto;
+}
+
+.tabs__article {
+    width: fit-content;
+    border: 1px solid #C6CBCD;
+}
+
+.tabs__article section {
+    width: 570px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.tabs__article h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    height: 124px;
+    line-height: 124px;
+    margin-bottom: 27px;
+}
+
+.tabs__article h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    margin-bottom: 27px;
+}
+
+.tabs__article button {
+    height: 58px;
+    width: 270px;
+    background-color: #EC7979;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.tabs__article button:hover {
+    background-color: #AB4949;
+}
+
+.tabs__article button:active {
+    background-color: #EC7979;
+    box-shadow: #AB4949;
+    border: 1px solid #AB4949;
+}
+
+.tabs article img {
+    vertical-align: top;
+    margin-left: 26px;
+}
+
+.tabs nav div {
+    display: inline-block;
+    margin-right: -4px;
+    height: 40px;
+    width: 184px;
+    line-height: 40px;
+}
+
+.tabs nav div a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 40%
+}
+
+.tabs nav div:first-of-type {
+    border: 1px solid #C6CBCD;
+    border-bottom-color: #FFF;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: -1px;
+}
+
+@media screen and (max-width:1024px) {
+
+    .tabs {
+        width: 1024px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .tabs nav div {
+        width: 170px;
+    }
+
+    .tabs__article h3 {
+        font-size: 24px;
+    }
+
+    .tabs__article h5 {
+        font-size: 14px;
+    }
+
+    .tabs__article button {
+        width: 230px;
+    }
+
+    .tabs article img {
+        width: 450px;
+    }
+
+    .tabs__article {
+        display: flex;
+    }
+
+    .tabs__article section {
+        width: 480px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .tabs {
+        width: 290px;
+        height: 470px;
+    }
+
+    .tabs article img {
+        display: none;
+    }
+
+    .tabs__article {
+        width: 290px;
+        height: 470px;
+        margin: auto;
+    }
+
+    .tabs nav {
+        display: flex;
+    }
+
+    .tabs nav div {
+        width: 100px;
+        height: 40px;
+    }
+
+    .tabs__article h3 {
+        font-size: 18px;
+        text-align: center;
+        height: 110px;
+        line-height: 24.51px;
+        width: 240px;
+        margin-top: 40px;
+        margin-right: 10px;
+    }
+
+    .tabs__article h5 {
+        font-size: 13px;
+        line-height: 15.26px;
+        width: 240px;
+        height: 180px;
+        margin-bottom: 80px;
+        margin-top: -60px;
+        text-align: center;
+    }
+
+    .tabs__article button {
+        width: 240px;
+        height: 50px;
+    }
+
+    .tabs__article section {
+        width: 290px;
+        margin-left: 20px;
+    }
+}
